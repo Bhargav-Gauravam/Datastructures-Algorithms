@@ -4,7 +4,7 @@ public interface BinaryTreeADT{
 
       public boolean insert(int data);
 
-      public boolean delete(int data);
+      public void delete(int data);
 
       public boolean search(int data);
 
@@ -23,5 +23,7 @@ public interface BinaryTreeADT{
       public void levelorder();
 
       public void zigZagLevelorder();
+
+      public void findLevelOfEachNode();
 
 }
