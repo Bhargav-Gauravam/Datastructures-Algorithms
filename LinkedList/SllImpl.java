@@ -176,5 +176,9 @@ public class SllImpl implements SllADT{
         }
         
     }
+
+    public SllNode getHead(){
+    	return headNode;
+    }
     
 }

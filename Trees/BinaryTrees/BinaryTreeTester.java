@@ -62,7 +62,7 @@ public class BinaryTreeTester{
         System.out.println("Print Level Order ");
         binaryTree.levelOrder(root);
         System.out.println(" ");
-        System.out.println("Print In-Order Recursivje ");
+        System.out.println("Print In-Order Recursive ");
         binaryTree.inorderRecursive(root);
         System.out.println(" ");
         System.out.println("Print Pre-Order Recursive ");
